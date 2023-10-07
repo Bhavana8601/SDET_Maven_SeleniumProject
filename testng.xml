@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browsername" value="chrome"></parameter>
+    <listeners>
+        <listener class-name="failTestCases.IAnnotation"/>
+    </listeners>
+    <test verbose="10" preserve-order="true" parallel="true" thread-count="3" name="C:/Users/Admin/IdeaProjects/SDET_Maven_SeleniumProject">
+        <classes>
+            <class name="failTestCases.FailTestCaseExample"/>
+
+        </classes>
+    </test>
+</suite>

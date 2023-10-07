@@ -12,6 +12,6 @@ public class FirstMavenExample {
         driver.navigate().to("https://facebook.com/");
         driver.manage().window().maximize();
     Thread.sleep(4000);
-        driver.close();
+        
     }
 }

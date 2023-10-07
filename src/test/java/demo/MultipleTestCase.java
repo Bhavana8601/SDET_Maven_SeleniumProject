@@ -11,6 +11,7 @@ public class MultipleTestCase {
         driver.navigate().to("https://google.com/");
         driver.manage().window().maximize();
         driver.close();
+	driver.close();
     }
     @Test
     public void testcase2(){
@@ -21,21 +22,13 @@ public class MultipleTestCase {
         driver.close();
     }
     @Test
-    public void testcase3(){
+    public void testcase4(){
         System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("https://amazon.com/");
         driver.manage().window().maximize();
         driver.close();
     }
-    @Test
-    public void testcase4(){
-        System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.navigate().to("https://facebook.com/");
-        driver.manage().window().maximize();
-        driver.close();
-    }
-
+    
 }
 

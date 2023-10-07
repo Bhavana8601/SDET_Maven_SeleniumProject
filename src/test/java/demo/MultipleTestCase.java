@@ -22,7 +22,7 @@ public class MultipleTestCase {
         driver.close();
     }
     @Test
-    public void testcase3(){
+    public void testcase4(){
         System.setProperty("webdriver.chrome.driver", "C:/Users/Admin/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.navigate().to("https://amazon.com/");
